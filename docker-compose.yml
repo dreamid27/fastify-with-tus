@@ -5,8 +5,6 @@ services:
       context: .
       args:
         APP_ENV: production
-      options:
-        no-cache: true
     environment:
       NODE_ENV: production
     ports:
