@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: .
+      args:
+        APP_ENV: production
+    environment:
+      NODE_ENV: production
+    ports:
+      - 5050:5050
