@@ -11,7 +11,7 @@ const routes: FastifyPluginAsync = async (server) => {
       },
     }, 
   }, async function () {
-    return { hello: 'world' };
+    return { hello: 'world magazine' };
   });
 }
 
