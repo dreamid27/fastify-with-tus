@@ -8,6 +8,6 @@ describe('GET /', () => {
       path: '/',
     });
     expect(response.statusCode).eq(200);
-    expect(response.json()).deep.eq({ hello: 'world' });
+    expect(response.json()).deep.eq({ hello: 'world magazine' });
   });
 });
