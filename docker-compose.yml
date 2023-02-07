@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3"
 services:
   app:
     build:
@@ -7,5 +7,7 @@ services:
         APP_ENV: production
     environment:
       NODE_ENV: production
+    volumes:
+      - ./files:/usr/app/files
     ports:
-      - 5050:5050
+      - 3000:3000
